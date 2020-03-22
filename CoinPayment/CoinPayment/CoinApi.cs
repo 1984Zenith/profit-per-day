@@ -13,3 +13,5 @@ namespace CoinPayment
 {
     public class CoinApi
     {
+        public const string Url = "https://www.coinpayments.net/api.php";
+        public readonly string publicApiKey;
