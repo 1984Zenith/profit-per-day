@@ -12,3 +12,4 @@ using System.Threading.Tasks;
 namespace CoinPayment
 {
     public class CoinApi
+    {
