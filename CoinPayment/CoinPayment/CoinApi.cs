@@ -19,3 +19,5 @@ namespace CoinPayment
 
 
         public CoinApi(string publicApiKey,string privateApiKey)
+        {
+            this.publicApiKey = publicApiKey;
