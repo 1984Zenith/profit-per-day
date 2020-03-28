@@ -21,3 +21,7 @@ namespace CoinPayment
         public CoinApi(string publicApiKey,string privateApiKey)
         {
             this.publicApiKey = publicApiKey;
+            this.privateApiKey = privateApiKey;
+        }
+
+        public  async Task<ReceiveTransactionResponse> ReceiveAsync(ReceiveTransaction transaction)
