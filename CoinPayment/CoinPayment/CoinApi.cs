@@ -25,3 +25,4 @@ namespace CoinPayment
         }
 
         public  async Task<ReceiveTransactionResponse> ReceiveAsync(ReceiveTransaction transaction)
+        {
