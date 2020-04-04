@@ -28,3 +28,5 @@ namespace CoinPayment
         {
 
             var result = await SendRequestAsync(transaction);
+
+            if (result.IsSuccessStatusCode)
