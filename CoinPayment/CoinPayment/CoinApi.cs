@@ -33,3 +33,4 @@ namespace CoinPayment
             {
                 var str = await result.Content.ReadAsStringAsync();
                 try
+                {
