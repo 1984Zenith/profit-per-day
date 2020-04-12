@@ -35,3 +35,4 @@ namespace CoinPayment
                 try
                 {
                     var data = Newtonsoft.Json.JsonConvert.DeserializeObject<ReceiveTransactionResponse>(str);
+                    return data;
