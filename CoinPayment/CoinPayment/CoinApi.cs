@@ -52,3 +52,5 @@ namespace CoinPayment
 
         private  async Task<HttpResponseMessage> SendRequestAsync(BaseTransaction transaction)
         {
+            transaction.Key = publicApiKey;
+            var query = string.Empty.GetUrl(transaction.ToKeyValuePair());
