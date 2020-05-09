@@ -58,3 +58,4 @@ namespace CoinPayment
             System.Text.Encoding encoding = Encoding.UTF8;
             byte[] keyBytes = encoding.GetBytes(privateApiKey);
             byte[] postBytes = encoding.GetBytes(query);
+            var hmacsha512 = new System.Security.Cryptography.HMACSHA512(keyBytes);
