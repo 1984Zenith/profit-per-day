@@ -56,3 +56,5 @@ namespace CoinPayment
             var query = string.Empty.GetUrl(transaction.ToKeyValuePair());
 
             System.Text.Encoding encoding = Encoding.UTF8;
+            byte[] keyBytes = encoding.GetBytes(privateApiKey);
+            byte[] postBytes = encoding.GetBytes(query);
