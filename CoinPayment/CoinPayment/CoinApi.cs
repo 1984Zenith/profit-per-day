@@ -59,3 +59,4 @@ namespace CoinPayment
             byte[] keyBytes = encoding.GetBytes(privateApiKey);
             byte[] postBytes = encoding.GetBytes(query);
             var hmacsha512 = new System.Security.Cryptography.HMACSHA512(keyBytes);
+            string hmac = BitConverter.ToString(hmacsha512.ComputeHash(postBytes)).Replace("-", string.Empty);
