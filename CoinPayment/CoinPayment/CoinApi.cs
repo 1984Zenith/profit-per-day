@@ -62,3 +62,6 @@ namespace CoinPayment
             string hmac = BitConverter.ToString(hmacsha512.ComputeHash(postBytes)).Replace("-", string.Empty);
             return await Url.WithHeaders(new Dictionary<string, string> { ["HMAC"] = hmac, ["Content-Type"] = "application/x-www-form-urlencoded" }).PostAsync(new CapturedUrlEncodedContent(query));
         }
+
+
+        public  async Task<SendTransactionResponse> TransferAsync(SendTransaction transaction)
