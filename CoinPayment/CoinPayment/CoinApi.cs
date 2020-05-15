@@ -65,3 +65,4 @@ namespace CoinPayment
 
 
         public  async Task<SendTransactionResponse> TransferAsync(SendTransaction transaction)
+        {
