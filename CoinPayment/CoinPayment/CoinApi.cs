@@ -66,3 +66,5 @@ namespace CoinPayment
 
         public  async Task<SendTransactionResponse> TransferAsync(SendTransaction transaction)
         {
+
+            var result = await SendRequestAsync(transaction);
