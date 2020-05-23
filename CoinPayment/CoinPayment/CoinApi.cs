@@ -72,3 +72,4 @@ namespace CoinPayment
             if (result.IsSuccessStatusCode)
             {
                 var str = await result.Content.ReadAsStringAsync();
+                try
