@@ -78,3 +78,4 @@ namespace CoinPayment
                     return data;
                 }
                 catch
+                {
