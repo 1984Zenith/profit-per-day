@@ -84,3 +84,5 @@ namespace CoinPayment
                 }
 
             }
+            else throw new TransactionException { Error = result.StatusCode.ToString() };
+        }
