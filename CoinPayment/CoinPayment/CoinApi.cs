@@ -87,3 +87,6 @@ namespace CoinPayment
             else throw new TransactionException { Error = result.StatusCode.ToString() };
         }
 
+
+        public  async Task<ReceiveInfoTransaction> GetInfoAsync(ReceiveInfoTransaction transaction)
+        {
