@@ -91,3 +91,5 @@ namespace CoinPayment
         public  async Task<ReceiveInfoTransaction> GetInfoAsync(ReceiveInfoTransaction transaction)
         {
             var result = await SendRequestAsync(transaction);
+            if (result.IsSuccessStatusCode)
+            {
