@@ -95,3 +95,5 @@ namespace CoinPayment
             {
                 var str = await result.Content.ReadAsStringAsync();
                 try
+                {
+                    var data = Newtonsoft.Json.JsonConvert.DeserializeObject<ReceiveInfoTransaction>(str);
