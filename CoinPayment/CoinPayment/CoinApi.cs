@@ -104,3 +104,5 @@ namespace CoinPayment
                     var data = JsonConvert.DeserializeObject<TransactionException>(str);
                     throw data;
                 }
+
+            }
