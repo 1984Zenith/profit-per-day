@@ -5,3 +5,4 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>jetcipher.CoinPayment.Net</PackageId>
     <Authors>herocod3r</Authors>
+    <Company>Jetcipher</Company>
