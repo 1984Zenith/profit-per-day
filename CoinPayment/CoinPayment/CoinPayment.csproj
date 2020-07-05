@@ -8,3 +8,4 @@
     <Company>Jetcipher</Company>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageTags>bitcoin,bitcoin api,coinpayment</PackageTags>
+    <Description>A very simple library for consuming coinpayments.net in c#</Description>
