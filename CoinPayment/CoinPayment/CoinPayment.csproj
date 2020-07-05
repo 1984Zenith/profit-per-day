@@ -6,3 +6,5 @@
     <PackageId>jetcipher.CoinPayment.Net</PackageId>
     <Authors>herocod3r</Authors>
     <Company>Jetcipher</Company>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageTags>bitcoin,bitcoin api,coinpayment</PackageTags>
