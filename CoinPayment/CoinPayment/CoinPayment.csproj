@@ -10,3 +10,5 @@
     <PackageTags>bitcoin,bitcoin api,coinpayment</PackageTags>
     <Description>A very simple library for consuming coinpayments.net in c#</Description>
     <PackageProjectUrl>https://github.com/Herocod3r/coinpayments.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Herocod3r/coinpayments.net</RepositoryUrl>
+  </PropertyGroup>
