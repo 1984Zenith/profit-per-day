@@ -12,3 +12,7 @@
     <PackageProjectUrl>https://github.com/Herocod3r/coinpayments.net</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Herocod3r/coinpayments.net</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="2.2.1" />
+  </ItemGroup>
