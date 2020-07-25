@@ -10,3 +10,5 @@ namespace CoinPayment.Helpers
     {
         public static List<KeyValuePair<string, string>> ToKeyValuePair(this object obj)
         {
+
+            List<KeyValuePair<string, string>> ksv = new List<KeyValuePair<string, string>>();
