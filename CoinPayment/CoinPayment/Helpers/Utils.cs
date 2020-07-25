@@ -7,3 +7,4 @@ using System.Text;
 namespace CoinPayment.Helpers
 {
     public static class Utils
+    {
