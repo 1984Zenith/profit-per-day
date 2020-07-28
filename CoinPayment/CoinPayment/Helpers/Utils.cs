@@ -14,3 +14,5 @@ namespace CoinPayment.Helpers
             List<KeyValuePair<string, string>> ksv = new List<KeyValuePair<string, string>>();
 
             foreach (var item in obj.GetType().GetProperties())
+            {
+                string name = string.Empty;
