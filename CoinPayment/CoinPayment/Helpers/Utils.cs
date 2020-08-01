@@ -21,3 +21,4 @@ namespace CoinPayment.Helpers
                 {
                     name = ((Newtonsoft.Json.JsonPropertyAttribute)atm).PropertyName;
                 }
+                else name = item.Name;
