@@ -16,3 +16,4 @@ namespace CoinPayment.Helpers
             foreach (var item in obj.GetType().GetProperties())
             {
                 string name = string.Empty;
+                var atm = item.GetCustomAttributes(typeof(Newtonsoft.Json.JsonPropertyAttribute), false).FirstOrDefault();
