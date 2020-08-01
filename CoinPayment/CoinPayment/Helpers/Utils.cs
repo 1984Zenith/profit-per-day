@@ -17,3 +17,5 @@ namespace CoinPayment.Helpers
             {
                 string name = string.Empty;
                 var atm = item.GetCustomAttributes(typeof(Newtonsoft.Json.JsonPropertyAttribute), false).FirstOrDefault();
+                if (atm != null)
+                {
