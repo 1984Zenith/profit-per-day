@@ -22,3 +22,5 @@ namespace CoinPayment.Helpers
                     name = ((Newtonsoft.Json.JsonPropertyAttribute)atm).PropertyName;
                 }
                 else name = item.Name;
+
+                if (item.GetValue(obj) != null) ksv.Add(new KeyValuePair<string, string>(name, item.GetValue(obj).ToString()));
