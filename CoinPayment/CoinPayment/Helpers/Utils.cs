@@ -27,3 +27,4 @@ namespace CoinPayment.Helpers
             }
             return ksv;
         }
+
