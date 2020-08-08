@@ -30,3 +30,4 @@ namespace CoinPayment.Helpers
 
 
         public static string GetUrl(this string mainUrl, List<KeyValuePair<string, string>> obj)
+        {
