@@ -25,3 +25,5 @@ namespace CoinPayment.Helpers
 
                 if (item.GetValue(obj) != null) ksv.Add(new KeyValuePair<string, string>(name, item.GetValue(obj).ToString()));
             }
+            return ksv;
+        }
