@@ -28,3 +28,5 @@ namespace CoinPayment.Helpers
             return ksv;
         }
 
+
+        public static string GetUrl(this string mainUrl, List<KeyValuePair<string, string>> obj)
