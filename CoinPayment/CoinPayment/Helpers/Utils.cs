@@ -32,3 +32,5 @@ namespace CoinPayment.Helpers
         public static string GetUrl(this string mainUrl, List<KeyValuePair<string, string>> obj)
         {
             var i = 0;
+            foreach (var item in obj)
+            {
