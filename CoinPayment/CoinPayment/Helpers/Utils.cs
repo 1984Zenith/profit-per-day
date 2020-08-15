@@ -35,3 +35,4 @@ namespace CoinPayment.Helpers
             foreach (var item in obj)
             {
                 if (i == 0) mainUrl += $"{item.Key}={item.Value}";
+                else mainUrl += $"&{item.Key}={item.Value}";
