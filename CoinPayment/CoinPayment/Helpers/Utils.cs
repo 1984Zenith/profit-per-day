@@ -36,3 +36,5 @@ namespace CoinPayment.Helpers
             {
                 if (i == 0) mainUrl += $"{item.Key}={item.Value}";
                 else mainUrl += $"&{item.Key}={item.Value}";
+                i += 1;
+            }
