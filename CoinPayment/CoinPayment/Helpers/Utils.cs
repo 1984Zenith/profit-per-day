@@ -39,3 +39,5 @@ namespace CoinPayment.Helpers
                 i += 1;
             }
             return mainUrl;
+        }
+    }
