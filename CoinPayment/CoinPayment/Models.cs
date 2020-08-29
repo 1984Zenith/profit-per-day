@@ -6,3 +6,4 @@ using System.Text;
 
 namespace CoinPayment
 {
+    public abstract class BaseTransaction
