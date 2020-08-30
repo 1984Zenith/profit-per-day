@@ -8,3 +8,7 @@ namespace CoinPayment
 {
     public abstract class BaseTransaction
     {
+
+
+
+        [JsonProperty("version")]
