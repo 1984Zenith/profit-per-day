@@ -12,3 +12,4 @@ namespace CoinPayment
 
 
         [JsonProperty("version")]
+        public int Version { get; set; } = 1;
