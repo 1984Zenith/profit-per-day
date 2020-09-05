@@ -19,3 +19,4 @@ namespace CoinPayment
 
         [JsonProperty("cmd")]
         public virtual string Cmd { get; set; }
+    }
