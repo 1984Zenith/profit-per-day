@@ -16,3 +16,6 @@ namespace CoinPayment
 
         [JsonProperty("key")]
         public string Key { get; set; }
+
+        [JsonProperty("cmd")]
+        public virtual string Cmd { get; set; }
