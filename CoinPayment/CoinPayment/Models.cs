@@ -22,3 +22,6 @@ namespace CoinPayment
     }
 
 
+
+
+    public class ReceiveTransaction : BaseTransaction
