@@ -21,3 +21,4 @@ namespace CoinPayment
         public virtual string Cmd { get; set; }
     }
 
+
