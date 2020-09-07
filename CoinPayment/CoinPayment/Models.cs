@@ -26,3 +26,4 @@ namespace CoinPayment
 
     public class ReceiveTransaction : BaseTransaction
     {
+        [JsonProperty("cmd")]
