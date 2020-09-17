@@ -27,3 +27,4 @@ namespace CoinPayment
     public class ReceiveTransaction : BaseTransaction
     {
         [JsonProperty("cmd")]
+        public override string Cmd { get; set; } = "create_transaction";
