@@ -28,3 +28,6 @@ namespace CoinPayment
     {
         [JsonProperty("cmd")]
         public override string Cmd { get; set; } = "create_transaction";
+
+        [JsonProperty("amount")]
+        public double Amount { get; set; }
