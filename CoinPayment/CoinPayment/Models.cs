@@ -38,3 +38,5 @@ namespace CoinPayment
         [JsonProperty("currency2")]
         public string Currency2 { get; set; } = "BTC";
 
+
+        [JsonProperty("address")]
