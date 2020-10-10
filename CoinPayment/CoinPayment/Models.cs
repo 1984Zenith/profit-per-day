@@ -43,3 +43,4 @@ namespace CoinPayment
         public string Address { get; set; }
 
         [JsonProperty("buyer_email")]
+        public string BuyerEmail { get; set; }
