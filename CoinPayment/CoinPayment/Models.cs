@@ -47,3 +47,6 @@ namespace CoinPayment
 
         [JsonProperty("buyer_name")]
         public string BuyerName { get; set; }
+
+        [JsonProperty("item_name")]
+        public string ItemName { get; set; }
