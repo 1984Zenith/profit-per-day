@@ -53,3 +53,6 @@ namespace CoinPayment
 
         [JsonProperty("item_number")]
         public string ItemNumber { get; set; }
+
+        [JsonProperty("invoice")]
+        public string Invoice { get; set; }
