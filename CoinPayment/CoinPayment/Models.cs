@@ -62,3 +62,5 @@ namespace CoinPayment
 
         [JsonProperty("ipn_url")]
         public string CallBackUrl { get; set; }
+
+
