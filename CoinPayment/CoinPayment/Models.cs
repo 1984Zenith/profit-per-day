@@ -64,3 +64,6 @@ namespace CoinPayment
         public string CallBackUrl { get; set; }
 
 
+
+
+    }
