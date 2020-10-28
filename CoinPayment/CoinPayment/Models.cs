@@ -67,3 +67,6 @@ namespace CoinPayment
 
 
     }
+
+
+    public class TransactionException : Exception
