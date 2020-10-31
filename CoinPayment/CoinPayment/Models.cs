@@ -73,3 +73,5 @@ namespace CoinPayment
     {
 
         public override string Message => Error;
+
+        [JsonProperty("error")]
