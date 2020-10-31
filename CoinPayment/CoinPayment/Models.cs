@@ -71,3 +71,5 @@ namespace CoinPayment
 
     public class TransactionException : Exception
     {
+
+        public override string Message => Error;
