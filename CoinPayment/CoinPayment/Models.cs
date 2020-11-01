@@ -78,3 +78,6 @@ namespace CoinPayment
         public string Error { get; set; }
     }
 
+
+    public class ReceiveTransactionResponse
+    {
