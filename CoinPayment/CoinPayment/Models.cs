@@ -77,3 +77,4 @@ namespace CoinPayment
         [JsonProperty("error")]
         public string Error { get; set; }
     }
+
