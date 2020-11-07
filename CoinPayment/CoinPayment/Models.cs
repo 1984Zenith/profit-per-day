@@ -89,3 +89,4 @@ namespace CoinPayment
     }
 
     public class ReceiveTransactionResult
+    {
