@@ -86,3 +86,6 @@ namespace CoinPayment
 
         [JsonProperty("result")]
         public ReceiveTransactionResult Result { get; set; }
+    }
+
+    public class ReceiveTransactionResult
