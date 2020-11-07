@@ -90,3 +90,5 @@ namespace CoinPayment
 
     public class ReceiveTransactionResult
     {
+        [JsonProperty("amount")]
+        public double Amount { get; set; }
