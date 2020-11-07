@@ -85,3 +85,4 @@ namespace CoinPayment
         public string Error { get; set; }
 
         [JsonProperty("result")]
+        public ReceiveTransactionResult Result { get; set; }
