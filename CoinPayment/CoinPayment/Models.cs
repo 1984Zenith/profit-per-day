@@ -98,3 +98,6 @@ namespace CoinPayment
 
         [JsonProperty("txn_id")]
         public string TransactionId { get; set; }
+
+        [JsonProperty("confirms_needed")]
+        public int ConfirmsNeeded { get; set; }
