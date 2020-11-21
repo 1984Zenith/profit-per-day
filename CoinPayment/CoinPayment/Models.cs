@@ -101,3 +101,5 @@ namespace CoinPayment
 
         [JsonProperty("confirms_needed")]
         public int ConfirmsNeeded { get; set; }
+
+        [JsonProperty("timeout")]
