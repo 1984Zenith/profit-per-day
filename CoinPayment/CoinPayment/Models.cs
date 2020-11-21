@@ -103,3 +103,6 @@ namespace CoinPayment
         public int ConfirmsNeeded { get; set; }
 
         [JsonProperty("timeout")]
+        public int Timeout { get; set; }
+
+        [JsonProperty("status_url")]
