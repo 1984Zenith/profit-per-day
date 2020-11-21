@@ -106,3 +106,4 @@ namespace CoinPayment
         public int Timeout { get; set; }
 
         [JsonProperty("status_url")]
+        public string StatusUrl { get; set; }
