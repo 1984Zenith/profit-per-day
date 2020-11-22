@@ -107,3 +107,6 @@ namespace CoinPayment
 
         [JsonProperty("status_url")]
         public string StatusUrl { get; set; }
+
+        [JsonProperty("qrcode_url")]
+        public string QrCodeUrl { get; set; }
