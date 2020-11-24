@@ -111,3 +111,6 @@ namespace CoinPayment
         [JsonProperty("qrcode_url")]
         public string QrCodeUrl { get; set; }
     }
+
+
+    public class ReceiveInfoTransaction : BaseTransaction
