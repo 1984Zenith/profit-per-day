@@ -116,3 +116,4 @@ namespace CoinPayment
     public class ReceiveInfoTransaction : BaseTransaction
     {
         [JsonProperty("cmd")]
+        public override string Cmd { get; set; } = "get_tx_info";
