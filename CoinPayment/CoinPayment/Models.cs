@@ -117,3 +117,6 @@ namespace CoinPayment
     {
         [JsonProperty("cmd")]
         public override string Cmd { get; set; } = "get_tx_info";
+
+        [JsonProperty("txid")]
+        public string TransactionId { get; set; }
