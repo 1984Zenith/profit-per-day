@@ -120,3 +120,4 @@ namespace CoinPayment
 
         [JsonProperty("txid")]
         public string TransactionId { get; set; }
+    }
