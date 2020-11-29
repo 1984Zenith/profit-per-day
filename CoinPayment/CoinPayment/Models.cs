@@ -122,3 +122,5 @@ namespace CoinPayment
         public string TransactionId { get; set; }
     }
 
+
+    public class SendTransaction : BaseTransaction
