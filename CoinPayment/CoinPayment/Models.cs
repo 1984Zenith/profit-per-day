@@ -124,3 +124,6 @@ namespace CoinPayment
 
 
     public class SendTransaction : BaseTransaction
+    {
+        [JsonProperty("cmd")]
+        public override string Cmd { get; set; } = "create_withdrawal";
