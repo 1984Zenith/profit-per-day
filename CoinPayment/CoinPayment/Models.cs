@@ -129,3 +129,4 @@ namespace CoinPayment
         public override string Cmd { get; set; } = "create_withdrawal";
 
         [JsonProperty("amount")]
+        public double Amount { get; set; }
