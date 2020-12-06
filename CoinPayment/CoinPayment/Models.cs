@@ -130,3 +130,5 @@ namespace CoinPayment
 
         [JsonProperty("amount")]
         public double Amount { get; set; }
+
+        [JsonProperty("currency")]
