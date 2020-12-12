@@ -141,3 +141,4 @@ namespace CoinPayment
         public string Address { get; set; }
 
         [JsonProperty("dest_tag")]
+        public string DestTag { get; set; }
