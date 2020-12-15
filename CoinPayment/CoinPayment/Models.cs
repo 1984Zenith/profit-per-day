@@ -142,3 +142,6 @@ namespace CoinPayment
 
         [JsonProperty("dest_tag")]
         public string DestTag { get; set; }
+
+        [JsonProperty("ipn_url")]
+        public string CallbackUrl { get; set; }
