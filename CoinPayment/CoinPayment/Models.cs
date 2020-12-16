@@ -145,3 +145,5 @@ namespace CoinPayment
 
         [JsonProperty("ipn_url")]
         public string CallbackUrl { get; set; }
+
+        [JsonProperty("auto_confirm")]
