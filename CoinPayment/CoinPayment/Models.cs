@@ -148,3 +148,5 @@ namespace CoinPayment
 
         [JsonProperty("auto_confirm")]
         public int AutoConfirm { get; set; } = 1;
+
+        [JsonProperty("note")]
