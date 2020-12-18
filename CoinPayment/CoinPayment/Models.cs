@@ -147,3 +147,4 @@ namespace CoinPayment
         public string CallbackUrl { get; set; }
 
         [JsonProperty("auto_confirm")]
+        public int AutoConfirm { get; set; } = 1;
