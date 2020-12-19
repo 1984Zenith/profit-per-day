@@ -151,3 +151,6 @@ namespace CoinPayment
 
         [JsonProperty("note")]
         public string Note { get; set; }
+
+
+    }
