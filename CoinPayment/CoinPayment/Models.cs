@@ -154,3 +154,6 @@ namespace CoinPayment
 
 
     }
+
+    public class SendTransactionResponse
+    {
