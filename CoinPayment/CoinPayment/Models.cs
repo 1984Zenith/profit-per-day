@@ -157,3 +157,4 @@ namespace CoinPayment
 
     public class SendTransactionResponse
     {
+        [JsonProperty("error")]
