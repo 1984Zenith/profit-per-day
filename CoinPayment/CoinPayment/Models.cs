@@ -163,3 +163,4 @@ namespace CoinPayment
         [JsonProperty("result")]
         public SendTransactionResult Result { get; set; }
     }
+
