@@ -164,3 +164,6 @@ namespace CoinPayment
         public SendTransactionResult Result { get; set; }
     }
 
+
+    public class SendTransactionResult
+    {
