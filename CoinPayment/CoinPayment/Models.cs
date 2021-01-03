@@ -172,3 +172,6 @@ namespace CoinPayment
 
         [JsonProperty("status")]
         public int Status { get; set; }
+
+        [JsonProperty("amount")]
+        public double Amount { get; set; }
