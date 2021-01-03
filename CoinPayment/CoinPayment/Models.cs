@@ -171,3 +171,4 @@ namespace CoinPayment
         public string Id { get; set; }
 
         [JsonProperty("status")]
+        public int Status { get; set; }
