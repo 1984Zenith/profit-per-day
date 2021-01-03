@@ -167,3 +167,5 @@ namespace CoinPayment
 
     public class SendTransactionResult
     {
+        [JsonProperty("id")]
+        public string Id { get; set; }
