@@ -178,3 +178,6 @@ namespace CoinPayment
     }
 
 
+
+    public class IPN
+    {
