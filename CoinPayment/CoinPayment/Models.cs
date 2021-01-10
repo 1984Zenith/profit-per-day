@@ -181,3 +181,4 @@ namespace CoinPayment
 
     public class IPN
     {
+        [JsonProperty("ipn_version")]
