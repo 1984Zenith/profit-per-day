@@ -183,3 +183,6 @@ namespace CoinPayment
     {
         [JsonProperty("ipn_version")]
         public float Version { get; set; }
+
+        [JsonProperty("ipn_mode")]
+        public string Mode { get; set; }
