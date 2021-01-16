@@ -188,3 +188,4 @@ namespace CoinPayment
         public string Mode { get; set; }
 
         [JsonProperty("ipn_type")]
+        public string Type { get; set; }
