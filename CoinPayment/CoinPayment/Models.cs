@@ -195,3 +195,4 @@ namespace CoinPayment
 
         [JsonProperty("merchant")]
         public string MerchantId { get; set; }
+    }
