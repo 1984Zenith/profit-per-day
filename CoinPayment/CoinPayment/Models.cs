@@ -198,3 +198,4 @@ namespace CoinPayment
     }
 
     public class IPNWithdrawal : IPN
+    {
