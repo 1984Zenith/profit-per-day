@@ -199,3 +199,5 @@ namespace CoinPayment
 
     public class IPNWithdrawal : IPN
     {
+
+        [JsonProperty("id")]
