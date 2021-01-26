@@ -201,3 +201,4 @@ namespace CoinPayment
     {
 
         [JsonProperty("id")]
+        public string WithdrawalID { get; set; }
