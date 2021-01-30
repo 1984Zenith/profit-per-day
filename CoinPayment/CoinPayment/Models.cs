@@ -210,3 +210,6 @@ namespace CoinPayment
         public string StatusText { get; set; }
 
         [JsonProperty("address")]
+        public string Address { get; set; }
+
+        [JsonProperty("txn_id")]
