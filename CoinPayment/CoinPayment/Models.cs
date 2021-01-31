@@ -214,3 +214,5 @@ namespace CoinPayment
 
         [JsonProperty("txn_id")]
         public string TransactionId { get; set; }
+
+        [JsonProperty("currency")]
