@@ -213,3 +213,4 @@ namespace CoinPayment
         public string Address { get; set; }
 
         [JsonProperty("txn_id")]
+        public string TransactionId { get; set; }
