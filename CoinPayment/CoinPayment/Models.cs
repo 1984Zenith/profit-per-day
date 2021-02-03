@@ -216,3 +216,4 @@ namespace CoinPayment
         public string TransactionId { get; set; }
 
         [JsonProperty("currency")]
+        public string Currency { get; set; }
