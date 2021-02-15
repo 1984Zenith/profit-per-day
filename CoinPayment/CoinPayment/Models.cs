@@ -219,3 +219,4 @@ namespace CoinPayment
         public string Currency { get; set; }
 
         [JsonProperty("amount")]
+        public double Amount { get; set; }
