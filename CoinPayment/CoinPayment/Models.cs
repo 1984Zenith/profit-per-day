@@ -222,3 +222,4 @@ namespace CoinPayment
         public double Amount { get; set; }
 
         [JsonProperty("amounti")]
+        public double Amounti { get; set; }
