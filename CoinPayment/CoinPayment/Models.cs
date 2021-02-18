@@ -226,3 +226,4 @@ namespace CoinPayment
     }
 
     public class IPNDeposit : IPN
+    {
