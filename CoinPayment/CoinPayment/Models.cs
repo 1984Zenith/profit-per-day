@@ -227,3 +227,5 @@ namespace CoinPayment
 
     public class IPNDeposit : IPN
     {
+        [JsonProperty("address")]
+        public string Address { get; set; }
