@@ -224,3 +224,5 @@ namespace CoinPayment
         [JsonProperty("amounti")]
         public double Amounti { get; set; }
     }
+
+    public class IPNDeposit : IPN
