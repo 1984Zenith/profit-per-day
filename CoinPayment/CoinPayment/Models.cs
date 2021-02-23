@@ -235,3 +235,5 @@ namespace CoinPayment
 
         [JsonProperty("status")]
         public int Status { get; set; }
+
+        [JsonProperty("status_text")]
