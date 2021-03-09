@@ -238,3 +238,6 @@ namespace CoinPayment
 
         [JsonProperty("status_text")]
         public string StatusText { get; set; }
+
+        [JsonProperty("currency")]
+        public string Currency { get; set; }
