@@ -244,3 +244,5 @@ namespace CoinPayment
 
         [JsonProperty("confirms")]
         public int Confirms { get; set; }
+
+        [JsonProperty("amount")]
