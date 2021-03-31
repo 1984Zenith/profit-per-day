@@ -255,3 +255,4 @@ namespace CoinPayment
         public double Fee { get; set; }
 
         [JsonProperty("feei")]
+        public double Feei { get; set; }
