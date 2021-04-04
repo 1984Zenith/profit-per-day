@@ -256,3 +256,5 @@ namespace CoinPayment
 
         [JsonProperty("feei")]
         public double Feei { get; set; }
+
+        [JsonProperty("dest_tag")]
