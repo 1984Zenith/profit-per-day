@@ -258,3 +258,4 @@ namespace CoinPayment
         public double Feei { get; set; }
 
         [JsonProperty("dest_tag")]
+        public string DestinationTag { get; set; }
