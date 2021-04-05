@@ -259,3 +259,6 @@ namespace CoinPayment
 
         [JsonProperty("dest_tag")]
         public string DestinationTag { get; set; }
+
+    }
+}
