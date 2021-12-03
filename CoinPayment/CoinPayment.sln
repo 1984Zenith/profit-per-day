@@ -6,4 +6,4 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinPayment", "CoinPayment\CoinPayment.csproj", "{F843D1FF-8C0C-4DD0-9FF1-600ECF4F5953}"
 EndProject
 Global
-	GlobalSection(SolutionConfigur
+	GlobalSection(SolutionConfigurat
