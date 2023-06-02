@@ -7,3 +7,4 @@ This is a very simple library for consuming [Coinpayments](https://coinpayments.
 
 ```c#
 CoinApi api = new CoinApi(PublicApiKey,PrivateApiKey);
+```
