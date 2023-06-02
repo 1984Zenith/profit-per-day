@@ -12,3 +12,4 @@ CoinApi api = new CoinApi(PublicApiKey,PrivateApiKey);
 ### Generate a receive payment request
 
 ```c#
+api.ReceiveAsync(ReceiveTransaction transaction);
