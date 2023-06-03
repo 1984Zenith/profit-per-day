@@ -18,3 +18,4 @@ api.ReceiveAsync(ReceiveTransaction transaction);
 ### Generate a withdrawal request
 
 ```c#
+api.TransferAsync(SendTransaction transaction);
