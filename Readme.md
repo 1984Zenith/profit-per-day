@@ -19,3 +19,4 @@ api.ReceiveAsync(ReceiveTransaction transaction);
 
 ```c#
 api.TransferAsync(SendTransaction transaction);
+```
