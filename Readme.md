@@ -14,3 +14,5 @@ CoinApi api = new CoinApi(PublicApiKey,PrivateApiKey);
 ```c#
 api.ReceiveAsync(ReceiveTransaction transaction);
 ```
+
+### Generate a withdrawal request
